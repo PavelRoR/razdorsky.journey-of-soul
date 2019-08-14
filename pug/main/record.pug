@@ -1,0 +1,24 @@
+section#record
+	.container
+		h3.general-title.general-title-rec.hide Записи мастер-класса 
+			span более нет в свободном доступе
+		p.rec-text.rec-text-sale.hide Но Вы можете купить запись мастер-класса за 250р. и радоваться жизни вместе с теми, кто смотрел
+		a.button.button-buy-rec.hide(href="https://shop.mastervision.su/?r=ordering/cart/as1&id=3484&clean=true&lg=ru", target="_blank") Купить запись
+		h3.general-title.general-title-rec Запись занятия 
+			span от 14.07.19
+		.video-wrapper.video-wrapper-rec
+			iframe(src="https://player.vimeo.com/video/347015684"  allowFullScreen mozallowfullscreen webkitAllowFullScreen)
+		p.rec-text Занятие состоится 14.08.19, в 20:00 мск
+		p.rec-text Запись занятия появится здесь 15.08.19, после 13:00 мск
+		p.rec-text.hide Запись занятия будет в свободном доступе до 18.08.19
+		h3.general-title.general-title-feedback Ваши вопросы к Никите пишите 
+			span в формах ниже:
+		.row.feedback
+			.col-md-6.col-sm-6
+				#vk
+					#vk_comments
+					script(type="text/javascript")
+						| VK.Widgets.Comments("vk_comments", { limit: 15,  attach: 0, autoPublish: 1 });
+			.col-md-6.col-sm-6
+				#fb
+					.fb-comments(data-href= head_url data-width="100%" data-numposts="15" data-order-by="reverse_time")
